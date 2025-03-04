@@ -1,0 +1,73 @@
+2025-01-20 12:16:22.186 +05:30  INF  User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-20 12:16:22.507 +05:30  INF  Now listening on: http://localhost:5002
+2025-01-20 12:16:22.599 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2025-01-20 12:16:22.600 +05:30  INF  Hosting environment: Development
+2025-01-20 12:16:22.600 +05:30  INF  Content root path: C:\Users\Admin\Downloads\DotNETPracticeFiles\SampleWebAPI_Task1
+2025-01-20 12:16:22.989 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/swagger/index.html - null null
+2025-01-20 12:16:23.346 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/swagger/index.html - 200 null text/html;charset=utf-8 365.6917ms
+2025-01-20 12:16:23.351 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-20 12:16:23.359 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 7.885ms
+2025-01-20 12:16:23.360 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/_vs/browserLink - null null
+2025-01-20 12:16:23.420 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/_vs/browserLink - 200 null text/javascript; charset=UTF-8 59.8758ms
+2025-01-20 12:16:23.718 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - null null
+2025-01-20 12:16:23.771 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/swagger/favicon-32x32.png - null null
+2025-01-20 12:16:23.792 +05:30  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-01-20 12:16:23.793 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/swagger/favicon-32x32.png - 200 628 image/png 21.1442ms
+2025-01-20 12:16:23.897 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 179.1877ms
+2025-01-20 12:20:26.403 +05:30  INF  Request starting HTTP/1.1 OPTIONS http://localhost:5002/api/Employee/GetAllEmployee - null null
+2025-01-20 12:20:26.404 +05:30  INF  Request starting HTTP/1.1 OPTIONS http://localhost:5002/api/Employee/GetAllEmployee - null null
+2025-01-20 12:20:26.419 +05:30  WRN  Failed to determine the https port for redirect.
+2025-01-20 12:20:26.550 +05:30  INF  CORS policy execution successful.
+2025-01-20 12:20:26.550 +05:30  INF  CORS policy execution successful.
+2025-01-20 12:20:26.553 +05:30  INF  Request finished HTTP/1.1 OPTIONS http://localhost:5002/api/Employee/GetAllEmployee - 204 null null 150.1784ms
+2025-01-20 12:20:26.553 +05:30  INF  Request finished HTTP/1.1 OPTIONS http://localhost:5002/api/Employee/GetAllEmployee - 204 null null 150.3899ms
+2025-01-20 12:20:26.556 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/api/Employee/GetAllEmployee - null null
+2025-01-20 12:20:26.683 +05:30  INF  CORS policy execution successful.
+2025-01-20 12:20:26.687 +05:30  INF  Executing endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1)'
+2025-01-20 12:20:26.709 +05:30  INF  Route matched with {action = "GetAllEmployee", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllEmployee() on controller SampleWebAPI_Task1.Controllers.EmployeeController (SampleWebAPI_Task1).
+2025-01-20 12:20:28.617 +05:30  INF  Executed DbCommand (49ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeID], [e].[Dept], [e].[Gender], [e].[Name]
+FROM [Employees] AS [e]
+2025-01-20 12:20:28.719 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[SampleWebAPI_Task1.Models.Employee, SampleWebAPI_Task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SampleWebAPI_Task1.Models.EmployeeDto, SampleWebAPI_Task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-20 12:20:28.729 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/api/Employee/GetAllEmployee - null null
+2025-01-20 12:20:28.731 +05:30  INF  CORS policy execution successful.
+2025-01-20 12:20:28.731 +05:30  INF  Executing endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1)'
+2025-01-20 12:20:28.731 +05:30  INF  Route matched with {action = "GetAllEmployee", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllEmployee() on controller SampleWebAPI_Task1.Controllers.EmployeeController (SampleWebAPI_Task1).
+2025-01-20 12:20:28.733 +05:30  INF  Executed action SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1) in 2018.4091ms
+2025-01-20 12:20:28.734 +05:30  INF  Executed endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1)'
+2025-01-20 12:20:28.746 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/api/Employee/GetAllEmployee - 200 null application/json; charset=utf-8 2189.7283ms
+2025-01-20 12:20:28.762 +05:30  INF  Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeID], [e].[Dept], [e].[Gender], [e].[Name]
+FROM [Employees] AS [e]
+2025-01-20 12:20:28.763 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[SampleWebAPI_Task1.Models.Employee, SampleWebAPI_Task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SampleWebAPI_Task1.Models.EmployeeDto, SampleWebAPI_Task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-20 12:20:28.764 +05:30  INF  Executed action SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1) in 32.3054ms
+2025-01-20 12:20:28.764 +05:30  INF  Executed endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1)'
+2025-01-20 12:20:28.764 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/api/Employee/GetAllEmployee - 200 null application/json; charset=utf-8 34.9426ms
+2025-01-20 12:20:52.531 +05:30  INF  Request starting HTTP/1.1 OPTIONS http://localhost:5002/api/Employee/GetAllEmployee - null null
+2025-01-20 12:20:52.538 +05:30  INF  CORS policy execution successful.
+2025-01-20 12:20:52.538 +05:30  INF  Request starting HTTP/1.1 OPTIONS http://localhost:5002/api/Employee/GetAllEmployee - null null
+2025-01-20 12:20:52.548 +05:30  INF  Request finished HTTP/1.1 OPTIONS http://localhost:5002/api/Employee/GetAllEmployee - 204 null null 10.3755ms
+2025-01-20 12:20:52.551 +05:30  INF  CORS policy execution successful.
+2025-01-20 12:20:52.552 +05:30  INF  Request finished HTTP/1.1 OPTIONS http://localhost:5002/api/Employee/GetAllEmployee - 204 null null 13.4613ms
+2025-01-20 12:20:52.557 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/api/Employee/GetAllEmployee - null null
+2025-01-20 12:20:52.558 +05:30  INF  CORS policy execution successful.
+2025-01-20 12:20:52.558 +05:30  INF  Executing endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1)'
+2025-01-20 12:20:52.559 +05:30  INF  Route matched with {action = "GetAllEmployee", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllEmployee() on controller SampleWebAPI_Task1.Controllers.EmployeeController (SampleWebAPI_Task1).
+2025-01-20 12:20:52.726 +05:30  INF  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeID], [e].[Dept], [e].[Gender], [e].[Name]
+FROM [Employees] AS [e]
+2025-01-20 12:20:52.727 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[SampleWebAPI_Task1.Models.Employee, SampleWebAPI_Task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SampleWebAPI_Task1.Models.EmployeeDto, SampleWebAPI_Task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-20 12:20:52.727 +05:30  INF  Executed action SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1) in 168.3044ms
+2025-01-20 12:20:52.727 +05:30  INF  Executed endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1)'
+2025-01-20 12:20:52.727 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/api/Employee/GetAllEmployee - 200 null application/json; charset=utf-8 170.7363ms
+2025-01-20 12:20:52.730 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/api/Employee/GetAllEmployee - null null
+2025-01-20 12:20:52.731 +05:30  INF  CORS policy execution successful.
+2025-01-20 12:20:52.731 +05:30  INF  Executing endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1)'
+2025-01-20 12:20:52.731 +05:30  INF  Route matched with {action = "GetAllEmployee", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllEmployee() on controller SampleWebAPI_Task1.Controllers.EmployeeController (SampleWebAPI_Task1).
+2025-01-20 12:20:52.737 +05:30  INF  Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeID], [e].[Dept], [e].[Gender], [e].[Name]
+FROM [Employees] AS [e]
+2025-01-20 12:20:52.738 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[SampleWebAPI_Task1.Models.Employee, SampleWebAPI_Task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SampleWebAPI_Task1.Models.EmployeeDto, SampleWebAPI_Task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-20 12:20:52.739 +05:30  INF  Executed action SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1) in 7.2635ms
+2025-01-20 12:20:52.739 +05:30  INF  Executed endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1)'
+2025-01-20 12:20:52.739 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/api/Employee/GetAllEmployee - 200 null application/json; charset=utf-8 9.4188ms

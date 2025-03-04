@@ -1,0 +1,14 @@
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\SortinngProblems\bin\Debug\net8.0\SortinngProblems.exe
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\SortinngProblems\bin\Debug\net8.0\SortinngProblems.deps.json
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\SortinngProblems\bin\Debug\net8.0\SortinngProblems.runtimeconfig.json
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\SortinngProblems\bin\Debug\net8.0\SortinngProblems.dll
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\SortinngProblems\bin\Debug\net8.0\SortinngProblems.pdb
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\SortinngProblems\obj\Debug\net8.0\SortinngProblems.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\SortinngProblems\obj\Debug\net8.0\SortinngProblems.AssemblyInfoInputs.cache
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\SortinngProblems\obj\Debug\net8.0\SortinngProblems.AssemblyInfo.cs
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\SortinngProblems\obj\Debug\net8.0\SortinngProblems.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\SortinngProblems\obj\Debug\net8.0\SortinngProblems.dll
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\SortinngProblems\obj\Debug\net8.0\refint\SortinngProblems.dll
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\SortinngProblems\obj\Debug\net8.0\SortinngProblems.pdb
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\SortinngProblems\obj\Debug\net8.0\SortinngProblems.genruntimeconfig.cache
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\SortinngProblems\obj\Debug\net8.0\ref\SortinngProblems.dll

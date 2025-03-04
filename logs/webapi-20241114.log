@@ -1,0 +1,36 @@
+2024-11-14 18:42:18.272 +05:30  INF  Now listening on: http://localhost:5002
+2024-11-14 18:42:18.459 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-11-14 18:42:18.462 +05:30  INF  Hosting environment: Development
+2024-11-14 18:42:18.463 +05:30  INF  Content root path: C:\Users\Admin\Downloads\DotNETPracticeFiles\SampleWebAPI_Task1
+2024-11-14 18:42:18.857 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/swagger/index.html - null null
+2024-11-14 18:42:19.188 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/swagger/index.html - 200 null text/html;charset=utf-8 347.1366ms
+2024-11-14 18:42:19.199 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-14 18:42:19.199 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/_vs/browserLink - null null
+2024-11-14 18:42:19.207 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 8.5773ms
+2024-11-14 18:42:19.259 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/_vs/browserLink - 200 null text/javascript; charset=UTF-8 59.9504ms
+2024-11-14 18:42:19.730 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - null null
+2024-11-14 18:42:19.900 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 170.0402ms
+2024-11-14 18:42:31.569 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/api/Employee/GetAllEmployee - null null
+2024-11-14 18:42:31.582 +05:30  WRN  Failed to determine the https port for redirect.
+2024-11-14 18:42:31.590 +05:30  INF  Executing endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1)'
+2024-11-14 18:42:31.625 +05:30  INF  Route matched with {action = "GetAllEmployee", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllEmployee() on controller SampleWebAPI_Task1.Controllers.EmployeeController (SampleWebAPI_Task1).
+2024-11-14 18:42:31.900 +05:30  INF  Weather Forecast executing...
+2024-11-14 18:42:34.027 +05:30  INF  Executed DbCommand (60ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeID], [e].[Dept], [e].[Gender], [e].[Name]
+FROM [Employees] AS [e]
+2024-11-14 18:42:34.178 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[SampleWebAPI_Task1.Models.Employee, SampleWebAPI_Task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SampleWebAPI_Task1.Models.EmployeeDto, SampleWebAPI_Task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-14 18:42:34.197 +05:30  INF  Executed action SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1) in 2563.5038ms
+2024-11-14 18:42:34.197 +05:30  INF  Executed endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1)'
+2024-11-14 18:42:34.213 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/api/Employee/GetAllEmployee - 200 null application/json; charset=utf-8 2643.8908ms
+2024-11-14 19:15:33.996 +05:30  INF  Now listening on: http://localhost:5002
+2024-11-14 19:15:34.151 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-11-14 19:15:34.153 +05:30  INF  Hosting environment: Development
+2024-11-14 19:15:34.154 +05:30  INF  Content root path: C:\Users\Admin\Downloads\DotNETPracticeFiles\SampleWebAPI_Task1
+2024-11-14 19:15:34.862 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/swagger/index.html - null null
+2024-11-14 19:15:35.229 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/swagger/index.html - 200 null text/html;charset=utf-8 375.4011ms
+2024-11-14 19:15:35.236 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-14 19:15:35.236 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/_vs/browserLink - null null
+2024-11-14 19:15:35.240 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 4.0135ms
+2024-11-14 19:15:35.298 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/_vs/browserLink - 200 null text/javascript; charset=UTF-8 61.8445ms
+2024-11-14 19:15:35.433 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - null null
+2024-11-14 19:15:35.621 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 187.8776ms

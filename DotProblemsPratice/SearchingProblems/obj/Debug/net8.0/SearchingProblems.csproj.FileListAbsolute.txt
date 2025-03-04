@@ -1,0 +1,14 @@
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\SearchingProblems\bin\Debug\net8.0\SearchingProblems.exe
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\SearchingProblems\bin\Debug\net8.0\SearchingProblems.deps.json
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\SearchingProblems\bin\Debug\net8.0\SearchingProblems.runtimeconfig.json
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\SearchingProblems\bin\Debug\net8.0\SearchingProblems.dll
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\SearchingProblems\bin\Debug\net8.0\SearchingProblems.pdb
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\SearchingProblems\obj\Debug\net8.0\SearchingProblems.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\SearchingProblems\obj\Debug\net8.0\SearchingProblems.AssemblyInfoInputs.cache
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\SearchingProblems\obj\Debug\net8.0\SearchingProblems.AssemblyInfo.cs
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\SearchingProblems\obj\Debug\net8.0\SearchingProblems.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\SearchingProblems\obj\Debug\net8.0\SearchingProblems.dll
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\SearchingProblems\obj\Debug\net8.0\refint\SearchingProblems.dll
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\SearchingProblems\obj\Debug\net8.0\SearchingProblems.pdb
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\SearchingProblems\obj\Debug\net8.0\SearchingProblems.genruntimeconfig.cache
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\SearchingProblems\obj\Debug\net8.0\ref\SearchingProblems.dll

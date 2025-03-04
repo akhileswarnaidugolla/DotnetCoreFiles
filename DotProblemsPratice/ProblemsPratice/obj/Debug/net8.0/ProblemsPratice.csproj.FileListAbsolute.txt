@@ -1,0 +1,14 @@
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\ProblemsPratice\bin\Debug\net8.0\ProblemsPratice.exe
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\ProblemsPratice\bin\Debug\net8.0\ProblemsPratice.deps.json
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\ProblemsPratice\bin\Debug\net8.0\ProblemsPratice.runtimeconfig.json
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\ProblemsPratice\bin\Debug\net8.0\ProblemsPratice.dll
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\ProblemsPratice\bin\Debug\net8.0\ProblemsPratice.pdb
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\ProblemsPratice\obj\Debug\net8.0\ProblemsPratice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\ProblemsPratice\obj\Debug\net8.0\ProblemsPratice.AssemblyInfoInputs.cache
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\ProblemsPratice\obj\Debug\net8.0\ProblemsPratice.AssemblyInfo.cs
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\ProblemsPratice\obj\Debug\net8.0\ProblemsPratice.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\ProblemsPratice\obj\Debug\net8.0\ProblemsPratice.dll
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\ProblemsPratice\obj\Debug\net8.0\refint\ProblemsPratice.dll
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\ProblemsPratice\obj\Debug\net8.0\ProblemsPratice.pdb
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\ProblemsPratice\obj\Debug\net8.0\ProblemsPratice.genruntimeconfig.cache
+C:\Users\Admin\Downloads\DotNETPracticeFiles\DotProblemsPratice\ProblemsPratice\obj\Debug\net8.0\ref\ProblemsPratice.dll
