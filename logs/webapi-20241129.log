@@ -1,0 +1,41 @@
+2024-11-29 15:11:02.153 +05:30  INF  User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-29 15:11:02.440 +05:30  INF  Now listening on: http://localhost:5002
+2024-11-29 15:11:02.541 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-11-29 15:11:02.542 +05:30  INF  Hosting environment: Development
+2024-11-29 15:11:02.542 +05:30  INF  Content root path: C:\Users\Admin\Downloads\DotNETPracticeFiles\SampleWebAPI_Task1
+2024-11-29 15:11:03.144 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/swagger/index.html - null null
+2024-11-29 15:11:03.495 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/swagger/index.html - 200 null text/html;charset=utf-8 354.9489ms
+2024-11-29 15:11:03.506 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-29 15:11:03.507 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/_vs/browserLink - null null
+2024-11-29 15:11:03.510 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 3.9602ms
+2024-11-29 15:11:03.572 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/_vs/browserLink - 200 null text/javascript; charset=UTF-8 64.5972ms
+2024-11-29 15:11:03.670 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - null null
+2024-11-29 15:11:03.846 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 176.353ms
+2024-11-29 15:13:37.421 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/api/Employee/GetAllEmployee - application/json 70
+2024-11-29 15:13:37.435 +05:30  WRN  Failed to determine the https port for redirect.
+2024-11-29 15:13:37.700 +05:30  INF  Executing endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1)'
+2024-11-29 15:13:37.728 +05:30  INF  Route matched with {action = "GetAllEmployee", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllEmployee() on controller SampleWebAPI_Task1.Controllers.EmployeeController (SampleWebAPI_Task1).
+2024-11-29 15:13:38.054 +05:30  INF  getallEmployeeis hitted
+2024-11-29 15:13:39.988 +05:30  INF  Executed DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeID], [e].[Dept], [e].[Gender], [e].[Name]
+FROM [Employees] AS [e]
+2024-11-29 15:13:40.103 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[SampleWebAPI_Task1.Models.Employee, SampleWebAPI_Task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SampleWebAPI_Task1.Models.EmployeeDto, SampleWebAPI_Task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-29 15:13:40.117 +05:30  INF  Executed action SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1) in 2384.6117ms
+2024-11-29 15:13:40.118 +05:30  INF  Executed endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1)'
+2024-11-29 15:13:40.130 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/api/Employee/GetAllEmployee - 200 null application/json; charset=utf-8 2710.7357ms
+2024-11-29 15:13:57.411 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/api/Employee/GetEmployeeByID?EmployeeID=1 - application/json 70
+2024-11-29 15:13:57.426 +05:30  INF  Failed to validate the token.Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/15/2024 7:51:52 AM', Current time (UTC): '11/29/2024 9:43:57 AM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+
+2024-11-29 15:13:57.440 +05:30  INF  Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '11/15/2024 7:51:52 AM', Current time (UTC): '11/29/2024 9:43:57 AM'.
+2024-11-29 15:13:57.443 +05:30  INF  Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (User)
+2024-11-29 15:13:57.453 +05:30  INF  AuthenticationScheme: Bearer was challenged.
+2024-11-29 15:13:57.453 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/api/Employee/GetEmployeeByID?EmployeeID=1 - 401 0 null 42.5584ms
+2024-11-29 15:14:04.010 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/api/Employee/GetEmployeeByID?EmployeeID=1 - application/json 70
+2024-11-29 15:14:04.018 +05:30  INF  Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (User)
+2024-11-29 15:14:04.022 +05:30  INF  AuthenticationScheme: Bearer was forbidden.
+2024-11-29 15:14:04.022 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/api/Employee/GetEmployeeByID?EmployeeID=1 - 403 0 null 11.6711ms

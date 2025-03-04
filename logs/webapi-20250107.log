@@ -1,0 +1,121 @@
+2025-01-07 14:10:55.391 +05:30  INF  User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-07 14:10:55.769 +05:30  INF  Now listening on: http://localhost:5002
+2025-01-07 14:10:55.908 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2025-01-07 14:10:55.909 +05:30  INF  Hosting environment: Development
+2025-01-07 14:10:55.909 +05:30  INF  Content root path: C:\Users\Admin\Downloads\DotNETPracticeFiles\SampleWebAPI_Task1
+2025-01-07 14:10:56.619 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/swagger/index.html - null null
+2025-01-07 14:10:57.005 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/swagger/index.html - 200 null text/html;charset=utf-8 389.5656ms
+2025-01-07 14:10:57.017 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/swagger/swagger-ui-standalone-preset.js - null null
+2025-01-07 14:10:57.014 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/swagger/swagger-ui.css - null null
+2025-01-07 14:10:57.014 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/swagger/swagger-ui-bundle.js - null null
+2025-01-07 14:10:57.022 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/_vs/browserLink - null null
+2025-01-07 14:10:57.029 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-07 14:10:57.032 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 3.3514ms
+2025-01-07 14:10:57.038 +05:30  INF  The file /swagger-ui.css was not modified
+2025-01-07 14:10:57.038 +05:30  INF  The file /swagger-ui-bundle.js was not modified
+2025-01-07 14:10:57.038 +05:30  INF  The file /swagger-ui-standalone-preset.js was not modified
+2025-01-07 14:10:57.046 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/swagger/swagger-ui-bundle.js - 304 null text/javascript 31.3305ms
+2025-01-07 14:10:57.046 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/swagger/swagger-ui-standalone-preset.js - 304 null text/javascript 32.5352ms
+2025-01-07 14:10:57.046 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/swagger/swagger-ui.css - 304 null text/css 32.5311ms
+2025-01-07 14:10:57.097 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/_vs/browserLink - 200 null text/javascript; charset=UTF-8 74.2897ms
+2025-01-07 14:10:57.453 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - null null
+2025-01-07 14:10:57.621 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 168.2264ms
+2025-01-07 14:14:03.160 +05:30  INF  Request starting HTTP/1.1 OPTIONS http://localhost:5002/api/Employee/GetAllEmployee - null null
+2025-01-07 14:14:03.162 +05:30  INF  Request starting HTTP/1.1 OPTIONS http://localhost:5002/api/Employee/GetAllEmployee - null null
+2025-01-07 14:14:03.178 +05:30  WRN  Failed to determine the https port for redirect.
+2025-01-07 14:14:03.328 +05:30  INF  CORS policy execution successful.
+2025-01-07 14:14:03.328 +05:30  INF  CORS policy execution successful.
+2025-01-07 14:14:03.329 +05:30  INF  Request finished HTTP/1.1 OPTIONS http://localhost:5002/api/Employee/GetAllEmployee - 204 null null 167.6094ms
+2025-01-07 14:14:03.329 +05:30  INF  Request finished HTTP/1.1 OPTIONS http://localhost:5002/api/Employee/GetAllEmployee - 204 null null 169.3958ms
+2025-01-07 14:14:03.332 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/api/Employee/GetAllEmployee - null null
+2025-01-07 14:14:03.438 +05:30  INF  CORS policy execution successful.
+2025-01-07 14:14:03.442 +05:30  INF  Executing endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1)'
+2025-01-07 14:14:03.472 +05:30  INF  Route matched with {action = "GetAllEmployee", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllEmployee() on controller SampleWebAPI_Task1.Controllers.EmployeeController (SampleWebAPI_Task1).
+2025-01-07 14:14:05.477 +05:30  INF  Executed DbCommand (47ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeID], [e].[Dept], [e].[Gender], [e].[Name]
+FROM [Employees] AS [e]
+2025-01-07 14:14:05.577 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[SampleWebAPI_Task1.Models.Employee, SampleWebAPI_Task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SampleWebAPI_Task1.Models.EmployeeDto, SampleWebAPI_Task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-07 14:14:05.591 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/api/Employee/GetAllEmployee - null null
+2025-01-07 14:14:05.592 +05:30  INF  CORS policy execution successful.
+2025-01-07 14:14:05.592 +05:30  INF  Executing endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1)'
+2025-01-07 14:14:05.593 +05:30  INF  Route matched with {action = "GetAllEmployee", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllEmployee() on controller SampleWebAPI_Task1.Controllers.EmployeeController (SampleWebAPI_Task1).
+2025-01-07 14:14:05.594 +05:30  INF  Executed action SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1) in 2116.0191ms
+2025-01-07 14:14:05.594 +05:30  INF  Executed endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1)'
+2025-01-07 14:14:05.609 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/api/Employee/GetAllEmployee - 200 null application/json; charset=utf-8 2276.9787ms
+2025-01-07 14:14:05.632 +05:30  INF  Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeID], [e].[Dept], [e].[Gender], [e].[Name]
+FROM [Employees] AS [e]
+2025-01-07 14:14:05.634 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[SampleWebAPI_Task1.Models.Employee, SampleWebAPI_Task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SampleWebAPI_Task1.Models.EmployeeDto, SampleWebAPI_Task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-07 14:14:05.634 +05:30  INF  Executed action SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1) in 41.4435ms
+2025-01-07 14:14:05.635 +05:30  INF  Executed endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1)'
+2025-01-07 14:14:05.635 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/api/Employee/GetAllEmployee - 200 null application/json; charset=utf-8 44.4693ms
+2025-01-07 14:14:16.465 +05:30  INF  Request starting HTTP/1.1 OPTIONS http://localhost:5002/api/Employee/EditEmployee/5 - null null
+2025-01-07 14:14:16.468 +05:30  INF  CORS policy execution successful.
+2025-01-07 14:14:16.469 +05:30  INF  Request finished HTTP/1.1 OPTIONS http://localhost:5002/api/Employee/EditEmployee/5 - 204 null null 3.1028ms
+2025-01-07 14:14:16.473 +05:30  INF  Request starting HTTP/1.1 PUT http://localhost:5002/api/Employee/EditEmployee/5 - application/json 52
+2025-01-07 14:14:16.475 +05:30  INF  CORS policy execution successful.
+2025-01-07 14:14:16.476 +05:30  INF  Executing endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.EditEmployee (SampleWebAPI_Task1)'
+2025-01-07 14:14:16.497 +05:30  INF  Route matched with {action = "EditEmployee", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult EditEmployee(Int32, SampleWebAPI_Task1.Models.EmployeeDto) on controller SampleWebAPI_Task1.Controllers.EmployeeController (SampleWebAPI_Task1).
+2025-01-07 14:14:16.793 +05:30  INF  Executed DbCommand (33ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[EmployeeID], [e].[Dept], [e].[Gender], [e].[Name]
+FROM [Employees] AS [e]
+WHERE [e].[EmployeeID] = @__p_0
+2025-01-07 14:14:16.807 +05:30  INF  Executed DbCommand (3ms) [Parameters=[@__EmployeeID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[EmployeeID], [e].[Dept], [e].[Gender], [e].[Name]
+FROM [Employees] AS [e]
+WHERE [e].[EmployeeID] = @__EmployeeID_0
+2025-01-07 14:14:16.921 +05:30  INF  Executed DbCommand (10ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Employees] SET [Dept] = @p0
+OUTPUT 1
+WHERE [EmployeeID] = @p1;
+2025-01-07 14:14:16.933 +05:30  INF  Executing OkObjectResult, writing value of type 'System.String'.
+2025-01-07 14:14:16.934 +05:30  INF  Executed action SampleWebAPI_Task1.Controllers.EmployeeController.EditEmployee (SampleWebAPI_Task1) in 436.6921ms
+2025-01-07 14:14:16.934 +05:30  INF  Executed endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.EditEmployee (SampleWebAPI_Task1)'
+2025-01-07 14:14:16.934 +05:30  INF  Request finished HTTP/1.1 PUT http://localhost:5002/api/Employee/EditEmployee/5 - 200 null text/plain; charset=utf-8 460.6719ms
+2025-01-07 14:14:16.941 +05:30  INF  Request starting HTTP/1.1 OPTIONS http://localhost:5002/api/Employee/GetAllEmployee - null null
+2025-01-07 14:14:16.941 +05:30  INF  CORS policy execution successful.
+2025-01-07 14:14:16.941 +05:30  INF  Request finished HTTP/1.1 OPTIONS http://localhost:5002/api/Employee/GetAllEmployee - 204 null null 0.5699ms
+2025-01-07 14:14:16.943 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/api/Employee/GetAllEmployee - null null
+2025-01-07 14:14:16.944 +05:30  INF  CORS policy execution successful.
+2025-01-07 14:14:16.944 +05:30  INF  Executing endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1)'
+2025-01-07 14:14:16.944 +05:30  INF  Route matched with {action = "GetAllEmployee", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllEmployee() on controller SampleWebAPI_Task1.Controllers.EmployeeController (SampleWebAPI_Task1).
+2025-01-07 14:14:16.948 +05:30  INF  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeID], [e].[Dept], [e].[Gender], [e].[Name]
+FROM [Employees] AS [e]
+2025-01-07 14:14:16.949 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[SampleWebAPI_Task1.Models.Employee, SampleWebAPI_Task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SampleWebAPI_Task1.Models.EmployeeDto, SampleWebAPI_Task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-07 14:14:16.949 +05:30  INF  Executed action SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1) in 5.3363ms
+2025-01-07 14:14:16.949 +05:30  INF  Executed endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1)'
+2025-01-07 14:14:16.949 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/api/Employee/GetAllEmployee - 200 null application/json; charset=utf-8 6.5559ms
+2025-01-07 14:14:38.219 +05:30  INF  Request starting HTTP/1.1 OPTIONS http://localhost:5002/api/Employee/AddEmployee - null null
+2025-01-07 14:14:38.220 +05:30  INF  CORS policy execution successful.
+2025-01-07 14:14:38.221 +05:30  INF  Request finished HTTP/1.1 OPTIONS http://localhost:5002/api/Employee/AddEmployee - 204 null null 1.6063ms
+2025-01-07 14:14:38.223 +05:30  INF  Request starting HTTP/1.1 POST http://localhost:5002/api/Employee/AddEmployee - application/json 45
+2025-01-07 14:14:38.225 +05:30  INF  CORS policy execution successful.
+2025-01-07 14:14:38.225 +05:30  INF  Executing endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.AddEmployee (SampleWebAPI_Task1)'
+2025-01-07 14:14:38.229 +05:30  INF  Route matched with {action = "AddEmployee", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AddEmployee(SampleWebAPI_Task1.Models.EmployeeDto) on controller SampleWebAPI_Task1.Controllers.EmployeeController (SampleWebAPI_Task1).
+2025-01-07 14:14:38.312 +05:30  INF  Executed DbCommand (6ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Employees] ([Dept], [Gender], [Name])
+OUTPUT INSERTED.[EmployeeID]
+VALUES (@p0, @p1, @p2);
+2025-01-07 14:14:38.336 +05:30  INF  Executing OkObjectResult, writing value of type 'System.String'.
+2025-01-07 14:14:38.337 +05:30  INF  Executed action SampleWebAPI_Task1.Controllers.EmployeeController.AddEmployee (SampleWebAPI_Task1) in 107.1919ms
+2025-01-07 14:14:38.337 +05:30  INF  Executed endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.AddEmployee (SampleWebAPI_Task1)'
+2025-01-07 14:14:38.337 +05:30  INF  Request finished HTTP/1.1 POST http://localhost:5002/api/Employee/AddEmployee - 200 null text/plain; charset=utf-8 113.8878ms
+2025-01-07 14:14:39.866 +05:30  INF  Request starting HTTP/1.1 OPTIONS http://localhost:5002/api/Employee/GetAllEmployee - null null
+2025-01-07 14:14:39.867 +05:30  INF  CORS policy execution successful.
+2025-01-07 14:14:39.867 +05:30  INF  Request finished HTTP/1.1 OPTIONS http://localhost:5002/api/Employee/GetAllEmployee - 204 null null 1.0716ms
+2025-01-07 14:14:39.869 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/api/Employee/GetAllEmployee - null null
+2025-01-07 14:14:39.870 +05:30  INF  CORS policy execution successful.
+2025-01-07 14:14:39.870 +05:30  INF  Executing endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1)'
+2025-01-07 14:14:39.870 +05:30  INF  Route matched with {action = "GetAllEmployee", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllEmployee() on controller SampleWebAPI_Task1.Controllers.EmployeeController (SampleWebAPI_Task1).
+2025-01-07 14:14:39.874 +05:30  INF  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeID], [e].[Dept], [e].[Gender], [e].[Name]
+FROM [Employees] AS [e]
+2025-01-07 14:14:39.875 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[SampleWebAPI_Task1.Models.Employee, SampleWebAPI_Task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SampleWebAPI_Task1.Models.EmployeeDto, SampleWebAPI_Task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-01-07 14:14:39.875 +05:30  INF  Executed action SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1) in 5.132ms
+2025-01-07 14:14:39.875 +05:30  INF  Executed endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1)'
+2025-01-07 14:14:39.875 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/api/Employee/GetAllEmployee - 200 null application/json; charset=utf-8 6.4112ms

@@ -1,0 +1,6 @@
+@OneToOneRelationship_HostAddress = http://localhost:5032
+
+GET {{OneToOneRelationship_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

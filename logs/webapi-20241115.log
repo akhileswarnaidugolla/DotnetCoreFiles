@@ -1,0 +1,137 @@
+2024-11-15 12:28:50.841 +05:30  INF  User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-15 12:28:51.142 +05:30  INF  Now listening on: http://localhost:5002
+2024-11-15 12:28:51.229 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-11-15 12:28:51.229 +05:30  INF  Hosting environment: Development
+2024-11-15 12:28:51.230 +05:30  INF  Content root path: C:\Users\Admin\Downloads\DotNETPracticeFiles\SampleWebAPI_Task1
+2024-11-15 12:29:21.727 +05:30  INF  User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-15 12:29:22.064 +05:30  INF  Now listening on: http://localhost:5002
+2024-11-15 12:29:22.180 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-11-15 12:29:22.181 +05:30  INF  Hosting environment: Development
+2024-11-15 12:29:22.181 +05:30  INF  Content root path: C:\Users\Admin\Downloads\DotNETPracticeFiles\SampleWebAPI_Task1
+2024-11-15 12:29:23.128 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/swagger/index.html - null null
+2024-11-15 12:29:23.469 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/swagger/index.html - 200 null text/html;charset=utf-8 341.1943ms
+2024-11-15 12:29:23.479 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-15 12:29:23.479 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/_vs/browserLink - null null
+2024-11-15 12:29:23.484 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 4.4429ms
+2024-11-15 12:29:23.532 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.5695ms
+2024-11-15 12:29:23.615 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - null null
+2024-11-15 12:29:23.635 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/swagger/favicon-32x32.png - null null
+2024-11-15 12:29:23.652 +05:30  INF  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-11-15 12:29:23.652 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/swagger/favicon-32x32.png - 200 628 image/png 17.3453ms
+2024-11-15 12:29:23.780 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 164.3032ms
+2024-11-15 12:29:56.703 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/api/Employee/GetAllEmployee - application/json 70
+2024-11-15 12:29:56.714 +05:30  WRN  Failed to determine the https port for redirect.
+2024-11-15 12:29:56.887 +05:30  INF  Executing endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1)'
+2024-11-15 12:29:56.904 +05:30  INF  Route matched with {action = "GetAllEmployee", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllEmployee() on controller SampleWebAPI_Task1.Controllers.EmployeeController (SampleWebAPI_Task1).
+2024-11-15 12:29:57.235 +05:30  INF  Weather Forecast executing...
+2024-11-15 12:29:58.958 +05:30  INF  Executed DbCommand (42ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeID], [e].[Dept], [e].[Gender], [e].[Name]
+FROM [Employees] AS [e]
+2024-11-15 12:29:59.044 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[SampleWebAPI_Task1.Models.Employee, SampleWebAPI_Task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SampleWebAPI_Task1.Models.EmployeeDto, SampleWebAPI_Task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-15 12:29:59.058 +05:30  INF  Executed action SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1) in 2145.817ms
+2024-11-15 12:29:59.058 +05:30  INF  Executed endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1)'
+2024-11-15 12:29:59.071 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/api/Employee/GetAllEmployee - 200 null application/json; charset=utf-8 2367.9614ms
+2024-11-15 12:30:10.079 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/api/Employee/GetEmployeeByID?EmployeeID=1 - application/json 70
+2024-11-15 12:30:10.097 +05:30  INF  Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-11-15 12:30:10.104 +05:30  INF  AuthenticationScheme: Bearer was challenged.
+2024-11-15 12:30:10.104 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/api/Employee/GetEmployeeByID?EmployeeID=1 - 401 0 null 24.6927ms
+2024-11-15 12:30:32.124 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/api/Employee/GetEmployeeByID?EmployeeID=1 - application/json 70
+2024-11-15 12:30:32.216 +05:30  INF  Executing endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.GetByEmployeeByID (SampleWebAPI_Task1)'
+2024-11-15 12:30:32.224 +05:30  INF  Route matched with {action = "GetByEmployeeByID", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetByEmployeeByID(Int32) on controller SampleWebAPI_Task1.Controllers.EmployeeController (SampleWebAPI_Task1).
+2024-11-15 12:30:32.240 +05:30  INF  Weather Forecast executing...
+2024-11-15 12:30:32.482 +05:30  INF  Executed DbCommand (48ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[EmployeeID], [e].[Dept], [e].[Gender], [e].[Name]
+FROM [Employees] AS [e]
+WHERE [e].[EmployeeID] = @__p_0
+2024-11-15 12:30:32.484 +05:30  INF  Executing OkObjectResult, writing value of type 'SampleWebAPI_Task1.Models.EmployeeDto'.
+2024-11-15 12:30:32.485 +05:30  INF  Executed action SampleWebAPI_Task1.Controllers.EmployeeController.GetByEmployeeByID (SampleWebAPI_Task1) in 260.174ms
+2024-11-15 12:30:32.485 +05:30  INF  Executed endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.GetByEmployeeByID (SampleWebAPI_Task1)'
+2024-11-15 12:30:32.485 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/api/Employee/GetEmployeeByID?EmployeeID=1 - 200 null application/json; charset=utf-8 361.3699ms
+2024-11-15 12:36:44.164 +05:30  INF  User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-15 12:36:44.506 +05:30  INF  Now listening on: http://localhost:5002
+2024-11-15 12:36:44.614 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-11-15 12:36:44.615 +05:30  INF  Hosting environment: Development
+2024-11-15 12:36:44.615 +05:30  INF  Content root path: C:\Users\Admin\Downloads\DotNETPracticeFiles\SampleWebAPI_Task1
+2024-11-15 12:36:45.390 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/swagger/index.html - null null
+2024-11-15 12:36:45.833 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/swagger/index.html - 200 null text/html;charset=utf-8 443.7915ms
+2024-11-15 12:36:45.843 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/_vs/browserLink - null null
+2024-11-15 12:36:45.843 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-15 12:36:45.847 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 3.7708ms
+2024-11-15 12:36:45.924 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/_vs/browserLink - 200 null text/javascript; charset=UTF-8 81.2536ms
+2024-11-15 12:36:46.046 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - null null
+2024-11-15 12:36:46.270 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 224.1759ms
+2024-11-15 12:36:49.729 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/api/Employee/GetEmployeeByID?EmployeeID=1 - application/json 70
+2024-11-15 12:36:49.742 +05:30  WRN  Failed to determine the https port for redirect.
+2024-11-15 12:36:49.956 +05:30  INF  Executing endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.GetByEmployeeByID (SampleWebAPI_Task1)'
+2024-11-15 12:36:49.983 +05:30  INF  Route matched with {action = "GetByEmployeeByID", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetByEmployeeByID(Int32) on controller SampleWebAPI_Task1.Controllers.EmployeeController (SampleWebAPI_Task1).
+2024-11-15 12:36:50.193 +05:30  INF  Weather Forecast executing...
+2024-11-15 12:36:51.694 +05:30  INF  Executed DbCommand (66ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[EmployeeID], [e].[Dept], [e].[Gender], [e].[Name]
+FROM [Employees] AS [e]
+WHERE [e].[EmployeeID] = @__p_0
+2024-11-15 12:36:51.783 +05:30  INF  Executing OkObjectResult, writing value of type 'SampleWebAPI_Task1.Models.EmployeeDto'.
+2024-11-15 12:36:51.797 +05:30  INF  Executed action SampleWebAPI_Task1.Controllers.EmployeeController.GetByEmployeeByID (SampleWebAPI_Task1) in 1806.7705ms
+2024-11-15 12:36:51.798 +05:30  INF  Executed endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.GetByEmployeeByID (SampleWebAPI_Task1)'
+2024-11-15 12:36:51.809 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/api/Employee/GetEmployeeByID?EmployeeID=1 - 200 null application/json; charset=utf-8 2080.5591ms
+2024-11-15 12:37:02.480 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/api/Employee/GetEmployeeByID?EmployeeID=1 - application/json 70
+2024-11-15 12:37:02.488 +05:30  INF  Executing endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.GetByEmployeeByID (SampleWebAPI_Task1)'
+2024-11-15 12:37:02.488 +05:30  INF  Route matched with {action = "GetByEmployeeByID", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetByEmployeeByID(Int32) on controller SampleWebAPI_Task1.Controllers.EmployeeController (SampleWebAPI_Task1).
+2024-11-15 12:37:02.491 +05:30  INF  Weather Forecast executing...
+2024-11-15 12:37:02.528 +05:30  INF  Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [e].[EmployeeID], [e].[Dept], [e].[Gender], [e].[Name]
+FROM [Employees] AS [e]
+WHERE [e].[EmployeeID] = @__p_0
+2024-11-15 12:37:02.530 +05:30  INF  Executing OkObjectResult, writing value of type 'SampleWebAPI_Task1.Models.EmployeeDto'.
+2024-11-15 12:37:02.530 +05:30  INF  Executed action SampleWebAPI_Task1.Controllers.EmployeeController.GetByEmployeeByID (SampleWebAPI_Task1) in 41.7158ms
+2024-11-15 12:37:02.530 +05:30  INF  Executed endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.GetByEmployeeByID (SampleWebAPI_Task1)'
+2024-11-15 12:37:02.531 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/api/Employee/GetEmployeeByID?EmployeeID=1 - 200 null application/json; charset=utf-8 50.8042ms
+2024-11-15 12:37:30.157 +05:30  INF  User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-15 12:37:30.460 +05:30  INF  Now listening on: http://localhost:5002
+2024-11-15 12:37:30.581 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-11-15 12:37:30.582 +05:30  INF  Hosting environment: Development
+2024-11-15 12:37:30.582 +05:30  INF  Content root path: C:\Users\Admin\Downloads\DotNETPracticeFiles\SampleWebAPI_Task1
+2024-11-15 12:37:31.460 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/swagger/index.html - null null
+2024-11-15 12:37:31.798 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/swagger/index.html - 200 null text/html;charset=utf-8 338.6944ms
+2024-11-15 12:37:31.812 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-15 12:37:31.813 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/_vs/browserLink - null null
+2024-11-15 12:37:31.828 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 15.6483ms
+2024-11-15 12:37:31.891 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/_vs/browserLink - 200 null text/javascript; charset=UTF-8 77.5797ms
+2024-11-15 12:37:31.998 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - null null
+2024-11-15 12:37:32.209 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 210.9387ms
+2024-11-15 12:37:53.233 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/api/Employee/GetAllEmployee - application/json 70
+2024-11-15 12:37:53.240 +05:30  WRN  Failed to determine the https port for redirect.
+2024-11-15 12:37:53.345 +05:30  INF  Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-11-15 12:37:53.348 +05:30  INF  AuthenticationScheme: Bearer was challenged.
+2024-11-15 12:37:53.348 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/api/Employee/GetAllEmployee - 401 0 null 114.9184ms
+2024-11-15 12:38:08.037 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/api/Employee/GetAllEmployee - application/json 70
+2024-11-15 12:38:08.139 +05:30  INF  Executing endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1)'
+2024-11-15 12:38:08.158 +05:30  INF  Route matched with {action = "GetAllEmployee", controller = "Employee"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllEmployee() on controller SampleWebAPI_Task1.Controllers.EmployeeController (SampleWebAPI_Task1).
+2024-11-15 12:38:08.347 +05:30  INF  Weather Forecast executing...
+2024-11-15 12:38:09.737 +05:30  INF  Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[EmployeeID], [e].[Dept], [e].[Gender], [e].[Name]
+FROM [Employees] AS [e]
+2024-11-15 12:38:09.837 +05:30  INF  Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[SampleWebAPI_Task1.Models.Employee, SampleWebAPI_Task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[SampleWebAPI_Task1.Models.EmployeeDto, SampleWebAPI_Task1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-11-15 12:38:09.848 +05:30  INF  Executed action SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1) in 1685.6937ms
+2024-11-15 12:38:09.849 +05:30  INF  Executed endpoint 'SampleWebAPI_Task1.Controllers.EmployeeController.GetAllEmployee (SampleWebAPI_Task1)'
+2024-11-15 12:38:09.859 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/api/Employee/GetAllEmployee - 200 null application/json; charset=utf-8 1821.7194ms
+2024-11-15 12:38:47.101 +05:30  INF  User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-15 12:38:47.459 +05:30  INF  Now listening on: http://localhost:5002
+2024-11-15 12:38:47.657 +05:30  INF  Application started. Press Ctrl+C to shut down.
+2024-11-15 12:38:47.658 +05:30  INF  Hosting environment: Development
+2024-11-15 12:38:47.659 +05:30  INF  Content root path: C:\Users\Admin\Downloads\DotNETPracticeFiles\SampleWebAPI_Task1
+2024-11-15 12:38:48.442 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/swagger/index.html - null null
+2024-11-15 12:38:48.751 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/swagger/index.html - 200 null text/html;charset=utf-8 312.0386ms
+2024-11-15 12:38:48.759 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-15 12:38:48.759 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/_vs/browserLink - null null
+2024-11-15 12:38:48.763 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 3.4752ms
+2024-11-15 12:38:48.812 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.4893ms
+2024-11-15 12:38:48.911 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - null null
+2024-11-15 12:38:49.096 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 185.0648ms
+2024-11-15 12:39:03.642 +05:30  INF  Request starting HTTP/1.1 GET http://localhost:5002/api/Employee/GetEmployeeByID?EmployeeID=1 - application/json 70
+2024-11-15 12:39:03.652 +05:30  WRN  Failed to determine the https port for redirect.
+2024-11-15 12:39:03.853 +05:30  INF  Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (User)
+2024-11-15 12:39:03.861 +05:30  INF  AuthenticationScheme: Bearer was forbidden.
+2024-11-15 12:39:03.861 +05:30  INF  Request finished HTTP/1.1 GET http://localhost:5002/api/Employee/GetEmployeeByID?EmployeeID=1 - 403 0 null 218.9304ms
